@@ -7,7 +7,7 @@ DB_NAME = "clipboard.db"
 
 
 class ClipboardManager:
-    def __init__(self):
+    def __init__(sellf):
         self.conn = sqlite3.connect(DB_NAME)
         self.create_table()
 
